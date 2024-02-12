@@ -7,6 +7,11 @@ h1 {
 
 body {
     background-color: lightblue;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flos-angeles&psig=AOvVaw1HUVEx8UtqxazmqmLDapu9&ust=1707763878130000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDkga36o4QDFQAAAAAdAAAAABAJ");
+     {
+        height: 100%;
+        width: 100%;
+    }
 }
+
+
 

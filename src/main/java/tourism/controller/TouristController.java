@@ -14,7 +14,11 @@ import java.util.List;
 @RequestMapping("/attractions")
 public class TouristController {
 
-    private TouristService touristService = new TouristService();
+    private TouristService touristService;
+
+    public TouristController(TouristService touristService) {
+        this.touristService = touristService;
+    }
 
     @GetMapping("/attractions")
     public ResponseEntity<List<TouristAttraction>> getAllAttractions() {
